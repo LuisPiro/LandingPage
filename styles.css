@@ -192,20 +192,20 @@ footer p {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* Envio de diseño Styles */
+/* Envio de disenio */
 #SendDesign {
     display: flex;
     justify-content: space-around; /* Ajustado a space-around */
     align-items: flex-start; /* Alinea los elementos en la parte superior */
     padding: 20px;
-    text-align: left; /* Cambia a la alineación a la izquierda */
+    text-align: left; /* Cambia a la alineacion a la izquierda */
 }
 
 .send-design-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* Alinea los elementos en la parte superior */
-    max-width: 1200px; /* Ajusta el contenedor al tamaño deseado */
+    max-width: 1200px; /* Ajusta el contenedor al tamanio deseado */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
 }
 
@@ -214,6 +214,7 @@ footer p {
     margin-right: 20px;
 }
 
+/* Estilo de links a redes sociales */
 #social-media {
     flex: 1;
     background-color: white;
@@ -221,7 +222,7 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    align-self: flex-start; /* Ajusta la alineación vertical al inicio */
+    align-self: flex-start; /* Ajusta la alineacion vertical al inicio */
 }
 
 #social-media h2 {
@@ -252,6 +253,7 @@ footer p {
     background-color: #e0a860;
 }
 
+/* El estilo del formulario de envio de disenios */
 #upload-form {
     display: flex;
     flex-direction: column;

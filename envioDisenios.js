@@ -1,4 +1,4 @@
-// Barra de imágenes de productos.
+// Barra de imagenes de productos.
 let currentSlide = 0;
 
 function moveSlide(n) {
@@ -31,21 +31,21 @@ function uploadImages() {
     })
     .then(response => {
         if (response.ok) {
-            alert('Información enviada correctamente');
+            alert('Informacion enviada correctamente');
             document.getElementById('user-name').value = '';
             document.getElementById('user-email').value = '';
             document.getElementById('user-phone').value = '';
             fileInput.value = '';
             return true;
         } else {
-            alert('Ha ocurrido un error al enviar la información');
+            alert('Ha ocurrido un error al enviar la informacion');
             return false;
         }
     })
     .catch(error => {
-        console.error('Error al enviar la información:', error);
+        console.error('Error al enviar la informacion:', error);
         return false;
     });
 
-    return false; // Evita que el formulario se envíe de forma predeterminada
+    return false; // Evita que el formulario se envie de forma predeterminada
 }

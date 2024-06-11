@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $uploads_dir = 'uploads/';
         // Extensiones permitidas
         $allowed_ext = array('jpg', 'jpeg', 'png', 'gif');
-        // Contador para llevar el control del número de imágenes procesadas
+        // Contador para llevar el control del número de imagenes procesadas
         $uploaded_count = 0;
 
         // Procesar cada imagen recibida
@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         if ($uploaded_count > 0) {
             // Envio exitoso
             http_response_code(200);
-            echo "Información enviada correctamente. Imagenes cargadas: $uploaded_count";
+            echo "Informacion enviada correctamente. Imagenes cargadas: $uploaded_count";
         } else {
             // No se cargaron imagenes
             http_response_code(400);
